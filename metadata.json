@@ -1,0 +1,6 @@
+{
+  "name": "Sistem SKEM dan SKPI Politeknik Semen Indonesia",
+  "description": "Sistem informasi pengelolaan Satuan Kredit Ekstrakurikuler Mahasiswa (SKEM) dan penerbitan otomatis Surat Keterangan Pendamping Ijazah (SKPI) Politeknik Semen Indonesia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,924 @@
+{
+  "users": [
+    {
+      "id": "usr_admin_001",
+      "role": "admin",
+      "email": "admin@polteksi.ac.id",
+      "nama": "Administrator BAAK & Kemahasiswaan Polteksi",
+      "createdAt": "2026-10-05T12:43:34.224Z"
+    },
+    {
+      "id": "usr_std_202301",
+      "role": "mahasiswa",
+      "email": "ahmad.fauzi@student.polteksi.ac.id",
+      "nama": "Ahmad Fauzi",
+      "nim": "202301045",
+      "prodi": "D4 Teknologi Rekayasa Perangkat Lunak",
+      "angkatan": 2023,
+      "tempatLahir": "Gresik",
+      "tanggalLahir": "2004-05-14",
+      "telepon": "081234567890",
+      "alamat": "Jl. RA Kartini No. 45, Kebomas, Gresik",
+      "gelar": "S.Tr.Kom.",
+      "statusKelulusan": "Aktif",
+      "createdAt": "2026-10-05T12:43:34.309Z"
+    },
+    {
+      "id": "usr_std_202202",
+      "role": "mahasiswa",
+      "email": "siti.nurhaliza@student.polteksi.ac.id",
+      "nama": "Siti Nurhaliza",
+      "nim": "202202018",
+      "prodi": "D3 Manajemen Perusahaan",
+      "angkatan": 2022,
+      "tempatLahir": "Surabaya",
+      "tanggalLahir": "2003-11-20",
+      "telepon": "085712349876",
+      "alamat": "Perumahan Semen Gresik Blok C-12, Gresik",
+      "nomorIjazah": "POLTEKSI-D3-MP-2026-0042",
+      "tanggalLulus": "2026-08-25",
+      "gelar": "A.Md.M.",
+      "statusKelulusan": "Lulus",
+      "createdAt": "2026-10-05T12:43:34.388Z"
+    },
+    {
+      "id": "usr_std_1791204359463_492",
+      "role": "mahasiswa",
+      "email": "budi.prasetyo@student.polteksi.ac.id",
+      "nama": "Budi Prasetyo",
+      "nim": "202401088",
+      "prodi": "D3 Teknik Mesin Industri",
+      "angkatan": 2024,
+      "statusKelulusan": "Aktif",
+      "createdAt": "2026-10-05T12:45:59.513Z"
+    }
+  ],
+  "userCredentials": {
+    "usr_admin_001": {
+      "salt": "f2d555d656c0edbb7e493ade22021918",
+      "hash": "ce7dff6d17b79a9eb01762f4aefb7c18f7798442baa33534b9a0d9495a7ee05cc458082b2d73e0beeb1d3b991641290cdf6046b8ed3086b36ebd99105b7efe81"
+    },
+    "usr_std_202301": {
+      "salt": "5498049b1544ccbe133c243a12303210",
+      "hash": "44755a6d4823b45440848b7336368aef5f19004dc4a3ba50bd8e001d4ef675cc5a8368a9ab32bf23ad4b64eda511d9e226f7e99e951549d62631c74fed308801"
+    },
+    "usr_std_202202": {
+      "salt": "6fed0630815016dfb896caee33866cf1",
+      "hash": "f445d9193569be70df5443f0b5cf18be8b40582f15c5bbac2f1d3583f281cf208d38422ceaaf55c53f4ce2081fdf858e610a8c239b14b57b5d4dc17fc6be770a"
+    },
+    "usr_std_1791204359463_492": {
+      "salt": "2be979679e2fffcbe794951fd9636279",
+      "hash": "3fc69114113ef881a9d9d2b41facbe1ffe0b8d48d85711ce953cefd66c3a41c4819f099cd3a9b049c44f70a1aa62ab4cbb4af4709a9571e32b119233cf211fb7"
+    }
+  },
+  "certificates": [
+    {
+      "id": "cert_s1_01",
+      "studentId": "usr_std_202301",
+      "studentName": "Ahmad Fauzi",
+      "studentNim": "202301045",
+      "studentProdi": "D4 Teknologi Rekayasa Perangkat Lunak",
+      "studentAngkatan": 2023,
+      "categoryId": "pelatihan",
+      "subcategoryId": "pelatihan_bnsp",
+      "activityName": "Sertifikasi Kompetensi BNSP Pemrograman Web (Junior Web Developer)",
+      "organizer": "LSP Teknologi Informasi & Komunikasi Indonesia",
+      "activityDate": "2024-08-15",
+      "academicYear": "2024/2025 Ganjil",
+      "certificateNumber": "BNSP-LSPTIK-2024-09881",
+      "verificationUrl": "https://bnsp.go.id/verifikasi/09881",
+      "fileName": "sertifikat_bnsp_ahmad.pdf",
+      "filePath": "sample_proof.pdf",
+      "fileMimeType": "application/pdf",
+      "fileSize": 425000,
+      "estimatedPoints": 100,
+      "approvedPoints": 100,
+      "status": "Disetujui",
+      "isMandatoryMatch": "bnsp",
+      "reviewerAdminId": "usr_admin_001",
+      "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+      "reviewedAt": "2024-09-02T10:15:00Z",
+      "revisionHistory": [
+        {
+          "date": "2024-09-02T10:15:00Z",
+          "action": "Disetujui",
+          "notes": "Dokumen keabsahan BNSP valid dan terverifikasi.",
+          "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+          "byRole": "admin"
+        }
+      ],
+      "ruleVersion": "2026.1",
+      "createdAt": "2024-09-01T08:00:00Z",
+      "updatedAt": "2024-09-02T10:15:00Z"
+    },
+    {
+      "id": "cert_s1_02",
+      "studentId": "usr_std_202301",
+      "studentName": "Ahmad Fauzi",
+      "studentNim": "202301045",
+      "studentProdi": "D4 Teknologi Rekayasa Perangkat Lunak",
+      "studentAngkatan": 2023,
+      "categoryId": "pelatihan",
+      "subcategoryId": "pelatihan_pkkmb",
+      "activityName": "Pengenalan Kehidupan Kampus Mahasiswa Baru (PKKMB) Polteksi 2023",
+      "organizer": "Politeknik Semen Indonesia",
+      "activityDate": "2023-09-05",
+      "academicYear": "2023/2024 Ganjil",
+      "certificateNumber": "PKKMB/POLTEKSI/2023/045",
+      "fileName": "pkkmb_polteksi_2023.pdf",
+      "filePath": "sample_proof.pdf",
+      "fileMimeType": "application/pdf",
+      "fileSize": 310000,
+      "estimatedPoints": 50,
+      "approvedPoints": 50,
+      "status": "Disetujui",
+      "isMandatoryMatch": "pkkmb",
+      "reviewerAdminId": "usr_admin_001",
+      "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+      "reviewedAt": "2023-09-20T14:30:00Z",
+      "revisionHistory": [
+        {
+          "date": "2023-09-20T14:30:00Z",
+          "action": "Disetujui",
+          "notes": "Sertifikat resmi PKKMB Polteksi.",
+          "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+          "byRole": "admin"
+        }
+      ],
+      "ruleVersion": "2026.1",
+      "createdAt": "2023-09-18T09:00:00Z",
+      "updatedAt": "2023-09-20T14:30:00Z"
+    },
+    {
+      "id": "cert_s1_03",
+      "studentId": "usr_std_202301",
+      "studentName": "Ahmad Fauzi",
+      "studentNim": "202301045",
+      "studentProdi": "D4 Teknologi Rekayasa Perangkat Lunak",
+      "studentAngkatan": 2023,
+      "categoryId": "prestasi",
+      "subcategoryId": "prestasi_nasional_juara3",
+      "activityName": "Lomba Cipta Aplikasi IoT Industri Semen Tingkat Nasional",
+      "organizer": "Kementerian Perindustrian & PT Semen Indonesia",
+      "activityDate": "2024-11-10",
+      "academicYear": "2024/2025 Ganjil",
+      "certificateNumber": "PII-IOT-2024-03",
+      "fileName": "iot_award_national.pdf",
+      "filePath": "sample_proof.pdf",
+      "fileMimeType": "application/pdf",
+      "fileSize": 520000,
+      "estimatedPoints": 60,
+      "approvedPoints": 60,
+      "status": "Disetujui",
+      "reviewerAdminId": "usr_admin_001",
+      "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+      "reviewedAt": "2024-11-25T11:00:00Z",
+      "revisionHistory": [
+        {
+          "date": "2024-11-25T11:00:00Z",
+          "action": "Disetujui",
+          "notes": "Prestasi Juara 3 tingkat nasional.",
+          "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+          "byRole": "admin"
+        }
+      ],
+      "ruleVersion": "2026.1",
+      "createdAt": "2024-11-20T10:00:00Z",
+      "updatedAt": "2024-11-25T11:00:00Z"
+    },
+    {
+      "id": "cert_s1_04",
+      "studentId": "usr_std_202301",
+      "studentName": "Ahmad Fauzi",
+      "studentNim": "202301045",
+      "studentProdi": "D4 Teknologi Rekayasa Perangkat Lunak",
+      "studentAngkatan": 2023,
+      "categoryId": "organisasi",
+      "subcategoryId": "org_hima_anggota",
+      "activityName": "Pengurus Divisi Kominfo Himpunan Mahasiswa Rekayasa Perangkat Lunak",
+      "organizer": "HIMA RPL Politeknik Semen Indonesia",
+      "activityDate": "2024-10-01",
+      "academicYear": "2024/2025 Ganjil",
+      "fileName": "sk_pengurus_hima_rpl.pdf",
+      "filePath": "sample_proof.pdf",
+      "fileMimeType": "application/pdf",
+      "fileSize": 450000,
+      "estimatedPoints": 30,
+      "approvedPoints": 0,
+      "status": "Menunggu Verifikasi",
+      "revisionHistory": [
+        {
+          "date": "2026-10-05T12:43:34.437Z",
+          "action": "Pengajuan Baru",
+          "notes": "Menunggu verifikasi admin BAAK.",
+          "by": "Ahmad Fauzi",
+          "byRole": "mahasiswa"
+        }
+      ],
+      "ruleVersion": "2026.1",
+      "createdAt": "2026-10-05T12:43:34.437Z",
+      "updatedAt": "2026-10-05T12:43:34.437Z"
+    },
+    {
+      "id": "cert_s1_05",
+      "studentId": "usr_std_202301",
+      "studentName": "Ahmad Fauzi",
+      "studentNim": "202301045",
+      "studentProdi": "D4 Teknologi Rekayasa Perangkat Lunak",
+      "studentAngkatan": 2023,
+      "categoryId": "pelatihan",
+      "subcategoryId": "pelatihan_lkmm",
+      "activityName": "Latihan Keterampilan Manajemen Mahasiswa (LKMM) Pra TD",
+      "organizer": "Kemenristekdikti & Polteksi",
+      "activityDate": "2024-03-12",
+      "academicYear": "2023/2024 Genap",
+      "fileName": "lkmm_sertifikat_scan.pdf",
+      "filePath": "sample_proof.pdf",
+      "fileMimeType": "application/pdf",
+      "fileSize": 320000,
+      "estimatedPoints": 40,
+      "approvedPoints": 0,
+      "status": "Perlu Revisi",
+      "isMandatoryMatch": "lkmm",
+      "adminNotes": "Mohon unggah scan sertifikat yang jelas menampilkan tanda tangan Wakil Direktur serta lampiran SK kelulusan LKMM.",
+      "reviewerAdminId": "usr_admin_001",
+      "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+      "reviewedAt": "2024-03-25T13:00:00Z",
+      "revisionHistory": [
+        {
+          "date": "2024-03-25T13:00:00Z",
+          "action": "Minta Revisi",
+          "notes": "Scan buram pada bagian stempel dan tanda tangan.",
+          "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+          "byRole": "admin"
+        }
+      ],
+      "ruleVersion": "2026.1",
+      "createdAt": "2024-03-20T08:00:00Z",
+      "updatedAt": "2024-03-25T13:00:00Z"
+    },
+    {
+      "id": "cert_s2_01",
+      "studentId": "usr_std_202202",
+      "studentName": "Siti Nurhaliza",
+      "studentNim": "202202018",
+      "studentProdi": "D3 Manajemen Perusahaan",
+      "studentAngkatan": 2022,
+      "categoryId": "pelatihan",
+      "subcategoryId": "pelatihan_bnsp",
+      "activityName": "Sertifikasi BNSP Skema Manajemen Administrasi Perkantoran",
+      "organizer": "LSP Administrasi Bisnis Indonesia",
+      "activityDate": "2024-06-10",
+      "academicYear": "2023/2024 Genap",
+      "certificateNumber": "BNSP-ADM-2024-7712",
+      "fileName": "sertifikat_bnsp_siti.pdf",
+      "filePath": "sample_proof.pdf",
+      "fileMimeType": "application/pdf",
+      "fileSize": 390000,
+      "estimatedPoints": 100,
+      "approvedPoints": 100,
+      "status": "Disetujui",
+      "isMandatoryMatch": "bnsp",
+      "reviewerAdminId": "usr_admin_001",
+      "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+      "reviewedAt": "2024-06-20T10:00:00Z",
+      "revisionHistory": [
+        {
+          "date": "2024-06-20T10:00:00Z",
+          "action": "Disetujui",
+          "notes": "Sertifikasi BNSP terverifikasi sah.",
+          "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+          "byRole": "admin"
+        }
+      ],
+      "ruleVersion": "2026.1",
+      "createdAt": "2024-06-15T09:00:00Z",
+      "updatedAt": "2024-06-20T10:00:00Z"
+    },
+    {
+      "id": "cert_s2_02",
+      "studentId": "usr_std_202202",
+      "studentName": "Siti Nurhaliza",
+      "studentNim": "202202018",
+      "studentProdi": "D3 Manajemen Perusahaan",
+      "studentAngkatan": 2022,
+      "categoryId": "pelatihan",
+      "subcategoryId": "pelatihan_magang_pkl",
+      "activityName": "Magang Industri 6 Bulan di Divisi Supply Chain & Logistik",
+      "organizer": "PT Semen Indonesia Logistik (SILOG) Gresik",
+      "activityDate": "2025-01-15",
+      "academicYear": "2024/2025 Ganjil",
+      "certificateNumber": "MAGANG/SILOG/2025/089",
+      "fileName": "sertifikat_magang_silog.pdf",
+      "filePath": "sample_proof.pdf",
+      "fileMimeType": "application/pdf",
+      "fileSize": 480000,
+      "estimatedPoints": 100,
+      "approvedPoints": 100,
+      "status": "Disetujui",
+      "isMandatoryMatch": "pkl",
+      "reviewerAdminId": "usr_admin_001",
+      "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+      "reviewedAt": "2025-01-25T11:30:00Z",
+      "revisionHistory": [
+        {
+          "date": "2025-01-25T11:30:00Z",
+          "action": "Disetujui",
+          "notes": "Magang industri reguler 6 bulan memenuhi syarat wajib PKL.",
+          "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+          "byRole": "admin"
+        }
+      ],
+      "ruleVersion": "2026.1",
+      "createdAt": "2025-01-20T08:00:00Z",
+      "updatedAt": "2025-01-25T11:30:00Z"
+    },
+    {
+      "id": "cert_s2_03",
+      "studentId": "usr_std_202202",
+      "studentName": "Siti Nurhaliza",
+      "studentNim": "202202018",
+      "studentProdi": "D3 Manajemen Perusahaan",
+      "studentAngkatan": 2022,
+      "categoryId": "pelatihan",
+      "subcategoryId": "pelatihan_pkkmb",
+      "activityName": "PKKMB Politeknik Semen Indonesia Angkatan 2022",
+      "organizer": "Politeknik Semen Indonesia",
+      "activityDate": "2022-09-08",
+      "academicYear": "2022/2023 Ganjil",
+      "certificateNumber": "PKKMB/POLTEKSI/2022/112",
+      "fileName": "pkkmb_polteksi_2022.pdf",
+      "filePath": "sample_proof.pdf",
+      "fileMimeType": "application/pdf",
+      "fileSize": 280000,
+      "estimatedPoints": 50,
+      "approvedPoints": 50,
+      "status": "Disetujui",
+      "isMandatoryMatch": "pkkmb",
+      "reviewerAdminId": "usr_admin_001",
+      "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+      "reviewedAt": "2022-09-22T09:00:00Z",
+      "revisionHistory": [
+        {
+          "date": "2022-09-22T09:00:00Z",
+          "action": "Disetujui",
+          "notes": "Kegiatan wajib PKKMB selesai.",
+          "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+          "byRole": "admin"
+        }
+      ],
+      "ruleVersion": "2026.1",
+      "createdAt": "2022-09-20T10:00:00Z",
+      "updatedAt": "2022-09-22T09:00:00Z"
+    },
+    {
+      "id": "cert_s2_04",
+      "studentId": "usr_std_202202",
+      "studentName": "Siti Nurhaliza",
+      "studentNim": "202202018",
+      "studentProdi": "D3 Manajemen Perusahaan",
+      "studentAngkatan": 2022,
+      "categoryId": "pelatihan",
+      "subcategoryId": "pelatihan_lkmm",
+      "activityName": "Latihan Keterampilan Manajemen Mahasiswa Tingkat Dasar (LKMM TD)",
+      "organizer": "BEM Politeknik Semen Indonesia",
+      "activityDate": "2023-04-18",
+      "academicYear": "2022/2023 Genap",
+      "certificateNumber": "LKMM-TD/POLTEKSI/2023/024",
+      "fileName": "lkmm_td_siti.pdf",
+      "filePath": "sample_proof.pdf",
+      "fileMimeType": "application/pdf",
+      "fileSize": 310000,
+      "estimatedPoints": 60,
+      "approvedPoints": 60,
+      "status": "Disetujui",
+      "isMandatoryMatch": "lkmm",
+      "reviewerAdminId": "usr_admin_001",
+      "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+      "reviewedAt": "2023-04-30T10:00:00Z",
+      "revisionHistory": [
+        {
+          "date": "2023-04-30T10:00:00Z",
+          "action": "Disetujui",
+          "notes": "LKMM TD memenuhi syarat kepemimpinan wajib.",
+          "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+          "byRole": "admin"
+        }
+      ],
+      "ruleVersion": "2026.1",
+      "createdAt": "2023-04-25T14:00:00Z",
+      "updatedAt": "2023-04-30T10:00:00Z"
+    },
+    {
+      "id": "cert_s2_05",
+      "studentId": "usr_std_202202",
+      "studentName": "Siti Nurhaliza",
+      "studentNim": "202202018",
+      "studentProdi": "D3 Manajemen Perusahaan",
+      "studentAngkatan": 2022,
+      "categoryId": "projek",
+      "subcategoryId": "projek_pengabdian_kkn",
+      "activityName": "Pengabdian Masyarakat: Digitalisasi UMKM Mitra Semen Indonesia di Gresik",
+      "organizer": "P3M Politeknik Semen Indonesia",
+      "activityDate": "2024-08-20",
+      "academicYear": "2024/2025 Ganjil",
+      "fileName": "pengabdian_umkm_gresik.pdf",
+      "filePath": "sample_proof.pdf",
+      "fileMimeType": "application/pdf",
+      "fileSize": 420000,
+      "estimatedPoints": 50,
+      "approvedPoints": 50,
+      "status": "Disetujui",
+      "reviewerAdminId": "usr_admin_001",
+      "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+      "reviewedAt": "2024-09-01T15:00:00Z",
+      "revisionHistory": [
+        {
+          "date": "2024-09-01T15:00:00Z",
+          "action": "Disetujui",
+          "notes": "Pengabdian masyarakat terverifikasi.",
+          "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+          "byRole": "admin"
+        }
+      ],
+      "ruleVersion": "2026.1",
+      "createdAt": "2024-08-28T09:00:00Z",
+      "updatedAt": "2024-09-01T15:00:00Z"
+    },
+    {
+      "studentId": "usr_std_202301",
+      "studentName": "Ahmad Fauzi",
+      "studentNim": "202301045",
+      "studentProdi": "D4 Teknologi Rekayasa Perangkat Lunak",
+      "studentAngkatan": 2023,
+      "categoryId": "projek",
+      "subcategoryId": "projek_kewirausahaan",
+      "activityName": "Kewirausahaan Start-up IoT Semen Gresik",
+      "organizer": "Inkubator Bisnis Polteksi",
+      "activityDate": "2026-03-01",
+      "academicYear": "2025/2026 Ganjil",
+      "extraDetails": {},
+      "certificateNumber": "",
+      "verificationUrl": "",
+      "fileName": "bukti_startup.pdf",
+      "filePath": "sample_proof.pdf",
+      "fileMimeType": "application/pdf",
+      "fileSize": 102400,
+      "estimatedPoints": 50,
+      "approvedPoints": 50,
+      "status": "Disetujui",
+      "isMandatoryMatch": null,
+      "ruleVersion": "2026.1",
+      "id": "cert_1791204331022_324",
+      "revisionHistory": [
+        {
+          "date": "2026-10-05T12:45:31.022Z",
+          "action": "Kirim Pengajuan",
+          "notes": "Pengajuan baru dikirim.",
+          "by": "Ahmad Fauzi",
+          "byRole": "mahasiswa"
+        },
+        {
+          "date": "2026-10-05T12:45:31.139Z",
+          "action": "Disetujui",
+          "notes": "Kegiatan kewirausahaan telah diverifikasi dan valid.",
+          "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+          "byRole": "admin"
+        }
+      ],
+      "createdAt": "2026-10-05T12:45:31.022Z",
+      "updatedAt": "2026-10-05T12:45:31.139Z",
+      "adminNotes": "Kegiatan kewirausahaan telah diverifikasi dan valid.",
+      "reviewerAdminId": "usr_admin_001",
+      "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+      "reviewedAt": "2026-10-05T12:45:31.139Z"
+    }
+  ],
+  "skpiRequests": [
+    {
+      "id": "skpi_1791204343667_84",
+      "studentId": "usr_std_202202",
+      "studentName": "Siti Nurhaliza",
+      "studentNim": "202202018",
+      "studentProdi": "D3 Manajemen Perusahaan",
+      "studentAngkatan": 2022,
+      "submissionDate": "2026-10-05T12:45:43.667Z",
+      "status": "Terbit",
+      "revisionHistory": [
+        {
+          "date": "2026-10-05T12:45:43.667Z",
+          "action": "Diajukan",
+          "notes": "Mahasiswa mengajukan permohonan penerbitan SKPI resmi.",
+          "by": "Siti Nurhaliza",
+          "byRole": "mahasiswa"
+        },
+        {
+          "date": "2026-10-05T12:45:43.735Z",
+          "action": "Terbit",
+          "notes": "SKPI resmi telah diterbitkan dengan nomor dokumen: SKPI/POLTEKSI/2026/0101. Dokumen tersimpan permanen.",
+          "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+          "byRole": "admin"
+        }
+      ],
+      "createdAt": "2026-10-05T12:45:43.667Z",
+      "updatedAt": "2026-10-05T12:45:43.735Z",
+      "documentNumber": "SKPI/POLTEKSI/2026/0101",
+      "publishedAt": "2026-10-05T12:45:43.735Z",
+      "publisherAdminId": "usr_admin_001",
+      "publisherAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+      "snapshotData": {
+        "student": {
+          "nama": "Siti Nurhaliza",
+          "nim": "202202018",
+          "tempatLahir": "Surabaya",
+          "tanggalLahir": "2003-11-20",
+          "tahunMasuk": 2022,
+          "tahunLulus": "2026-08-25",
+          "nomorIjazah": "POLTEKSI-D3-MP-2026-0042",
+          "gelar": "A.Md.M.",
+          "prodi": "D3 Manajemen Perusahaan",
+          "jenjang": "Diploma 3 (Ahli Madya) - Level 5 KKNI"
+        },
+        "institution": {
+          "namaInstitusi": "Politeknik Semen Indonesia",
+          "skPendirian": "Keputusan Menristekdikti RI Nomor 314/KPT/I/2018",
+          "alamat": "Kompleks PT Semen Indonesia (Persero) Tbk, Jl. Veteran, Gresik, Jawa Timur 61122",
+          "pejabatPenandatangan": "Dr. Ir. Wahyudi Triwahyono, M.T.",
+          "jabatanPejabat": "Direktur Politeknik Semen Indonesia",
+          "nipPejabat": "197405122002121002"
+        },
+        "learningOutcomes": {
+          "sikap": [
+            "Menunjukkan etika profesi bisnis, kepemimpinan yang berintegritas, dan rasa tanggung jawab sosial.",
+            "Menghargai keanekaragaman budaya, pandangan, serta pendapat dalam organisasi bisnis."
+          ],
+          "pengetahuan": [
+            "Menguasai konsep dasar manajemen operasional, pemasaran, sumber daya manusia, dan keuangan perusahaan.",
+            "Menguasai teknik administrasi perkantoran modern dan tata kelola rantai pasok industri."
+          ],
+          "keterampilanUmum": [
+            "Mampu menyelesaikan pekerjaan berlingkup luas dengan memilih metode yang sesuai dari beragam pilihan yang sudah baku.",
+            "Mampu bekerja sama dan berkomunikasi efektif dalam tim kerja lintas fungsi."
+          ],
+          "keterampilanKhusus": [
+            "Mampu menyusun rencana kerja operasional dan laporan kinerja divisi perusahaan.",
+            "Mampu mengoperasikan perangkat lunak manajemen bisnis dan sistem ERP perusahaan industri."
+          ]
+        },
+        "activities": {
+          "prestasi": [],
+          "pelatihanKeprofesian": [
+            {
+              "id": "cert_s2_01",
+              "studentId": "usr_std_202202",
+              "studentName": "Siti Nurhaliza",
+              "studentNim": "202202018",
+              "studentProdi": "D3 Manajemen Perusahaan",
+              "studentAngkatan": 2022,
+              "categoryId": "pelatihan",
+              "subcategoryId": "pelatihan_bnsp",
+              "activityName": "Sertifikasi BNSP Skema Manajemen Administrasi Perkantoran",
+              "organizer": "LSP Administrasi Bisnis Indonesia",
+              "activityDate": "2024-06-10",
+              "academicYear": "2023/2024 Genap",
+              "certificateNumber": "BNSP-ADM-2024-7712",
+              "fileName": "sertifikat_bnsp_siti.pdf",
+              "filePath": "sample_proof.pdf",
+              "fileMimeType": "application/pdf",
+              "fileSize": 390000,
+              "estimatedPoints": 100,
+              "approvedPoints": 100,
+              "status": "Disetujui",
+              "isMandatoryMatch": "bnsp",
+              "reviewerAdminId": "usr_admin_001",
+              "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+              "reviewedAt": "2024-06-20T10:00:00Z",
+              "revisionHistory": [
+                {
+                  "date": "2024-06-20T10:00:00Z",
+                  "action": "Disetujui",
+                  "notes": "Sertifikasi BNSP terverifikasi sah.",
+                  "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+                  "byRole": "admin"
+                }
+              ],
+              "ruleVersion": "2026.1",
+              "createdAt": "2024-06-15T09:00:00Z",
+              "updatedAt": "2024-06-20T10:00:00Z"
+            },
+            {
+              "id": "cert_s2_02",
+              "studentId": "usr_std_202202",
+              "studentName": "Siti Nurhaliza",
+              "studentNim": "202202018",
+              "studentProdi": "D3 Manajemen Perusahaan",
+              "studentAngkatan": 2022,
+              "categoryId": "pelatihan",
+              "subcategoryId": "pelatihan_magang_pkl",
+              "activityName": "Magang Industri 6 Bulan di Divisi Supply Chain & Logistik",
+              "organizer": "PT Semen Indonesia Logistik (SILOG) Gresik",
+              "activityDate": "2025-01-15",
+              "academicYear": "2024/2025 Ganjil",
+              "certificateNumber": "MAGANG/SILOG/2025/089",
+              "fileName": "sertifikat_magang_silog.pdf",
+              "filePath": "sample_proof.pdf",
+              "fileMimeType": "application/pdf",
+              "fileSize": 480000,
+              "estimatedPoints": 100,
+              "approvedPoints": 100,
+              "status": "Disetujui",
+              "isMandatoryMatch": "pkl",
+              "reviewerAdminId": "usr_admin_001",
+              "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+              "reviewedAt": "2025-01-25T11:30:00Z",
+              "revisionHistory": [
+                {
+                  "date": "2025-01-25T11:30:00Z",
+                  "action": "Disetujui",
+                  "notes": "Magang industri reguler 6 bulan memenuhi syarat wajib PKL.",
+                  "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+                  "byRole": "admin"
+                }
+              ],
+              "ruleVersion": "2026.1",
+              "createdAt": "2025-01-20T08:00:00Z",
+              "updatedAt": "2025-01-25T11:30:00Z"
+            },
+            {
+              "id": "cert_s2_03",
+              "studentId": "usr_std_202202",
+              "studentName": "Siti Nurhaliza",
+              "studentNim": "202202018",
+              "studentProdi": "D3 Manajemen Perusahaan",
+              "studentAngkatan": 2022,
+              "categoryId": "pelatihan",
+              "subcategoryId": "pelatihan_pkkmb",
+              "activityName": "PKKMB Politeknik Semen Indonesia Angkatan 2022",
+              "organizer": "Politeknik Semen Indonesia",
+              "activityDate": "2022-09-08",
+              "academicYear": "2022/2023 Ganjil",
+              "certificateNumber": "PKKMB/POLTEKSI/2022/112",
+              "fileName": "pkkmb_polteksi_2022.pdf",
+              "filePath": "sample_proof.pdf",
+              "fileMimeType": "application/pdf",
+              "fileSize": 280000,
+              "estimatedPoints": 50,
+              "approvedPoints": 50,
+              "status": "Disetujui",
+              "isMandatoryMatch": "pkkmb",
+              "reviewerAdminId": "usr_admin_001",
+              "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+              "reviewedAt": "2022-09-22T09:00:00Z",
+              "revisionHistory": [
+                {
+                  "date": "2022-09-22T09:00:00Z",
+                  "action": "Disetujui",
+                  "notes": "Kegiatan wajib PKKMB selesai.",
+                  "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+                  "byRole": "admin"
+                }
+              ],
+              "ruleVersion": "2026.1",
+              "createdAt": "2022-09-20T10:00:00Z",
+              "updatedAt": "2022-09-22T09:00:00Z"
+            },
+            {
+              "id": "cert_s2_04",
+              "studentId": "usr_std_202202",
+              "studentName": "Siti Nurhaliza",
+              "studentNim": "202202018",
+              "studentProdi": "D3 Manajemen Perusahaan",
+              "studentAngkatan": 2022,
+              "categoryId": "pelatihan",
+              "subcategoryId": "pelatihan_lkmm",
+              "activityName": "Latihan Keterampilan Manajemen Mahasiswa Tingkat Dasar (LKMM TD)",
+              "organizer": "BEM Politeknik Semen Indonesia",
+              "activityDate": "2023-04-18",
+              "academicYear": "2022/2023 Genap",
+              "certificateNumber": "LKMM-TD/POLTEKSI/2023/024",
+              "fileName": "lkmm_td_siti.pdf",
+              "filePath": "sample_proof.pdf",
+              "fileMimeType": "application/pdf",
+              "fileSize": 310000,
+              "estimatedPoints": 60,
+              "approvedPoints": 60,
+              "status": "Disetujui",
+              "isMandatoryMatch": "lkmm",
+              "reviewerAdminId": "usr_admin_001",
+              "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+              "reviewedAt": "2023-04-30T10:00:00Z",
+              "revisionHistory": [
+                {
+                  "date": "2023-04-30T10:00:00Z",
+                  "action": "Disetujui",
+                  "notes": "LKMM TD memenuhi syarat kepemimpinan wajib.",
+                  "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+                  "byRole": "admin"
+                }
+              ],
+              "ruleVersion": "2026.1",
+              "createdAt": "2023-04-25T14:00:00Z",
+              "updatedAt": "2023-04-30T10:00:00Z"
+            }
+          ],
+          "organisasi": [],
+          "projekPengabdian": [
+            {
+              "id": "cert_s2_05",
+              "studentId": "usr_std_202202",
+              "studentName": "Siti Nurhaliza",
+              "studentNim": "202202018",
+              "studentProdi": "D3 Manajemen Perusahaan",
+              "studentAngkatan": 2022,
+              "categoryId": "projek",
+              "subcategoryId": "projek_pengabdian_kkn",
+              "activityName": "Pengabdian Masyarakat: Digitalisasi UMKM Mitra Semen Indonesia di Gresik",
+              "organizer": "P3M Politeknik Semen Indonesia",
+              "activityDate": "2024-08-20",
+              "academicYear": "2024/2025 Ganjil",
+              "fileName": "pengabdian_umkm_gresik.pdf",
+              "filePath": "sample_proof.pdf",
+              "fileMimeType": "application/pdf",
+              "fileSize": 420000,
+              "estimatedPoints": 50,
+              "approvedPoints": 50,
+              "status": "Disetujui",
+              "reviewerAdminId": "usr_admin_001",
+              "reviewerAdminName": "Administrator BAAK & Kemahasiswaan Polteksi",
+              "reviewedAt": "2024-09-01T15:00:00Z",
+              "revisionHistory": [
+                {
+                  "date": "2024-09-01T15:00:00Z",
+                  "action": "Disetujui",
+                  "notes": "Pengabdian masyarakat terverifikasi.",
+                  "by": "Administrator BAAK & Kemahasiswaan Polteksi",
+                  "byRole": "admin"
+                }
+              ],
+              "ruleVersion": "2026.1",
+              "createdAt": "2024-08-28T09:00:00Z",
+              "updatedAt": "2024-09-01T15:00:00Z"
+            }
+          ]
+        },
+        "summary": {
+          "totalPoints": 360,
+          "predicate": "Cukup (Target Keringanan 2022)",
+          "generatedAt": "2026-10-05T12:45:43.735Z"
+        }
+      }
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_001",
+      "userId": "usr_std_202301",
+      "title": "Selamat Datang di Portal SKEM & SKPI Polteksi",
+      "message": "Silakan periksa rekap poin dan lengkapi pengajuan sertifikat kegiatan Anda.",
+      "type": "info",
+      "isRead": false,
+      "createdAt": "2026-10-05T12:43:34.437Z"
+    },
+    {
+      "id": "notif_002",
+      "userId": "usr_std_202301",
+      "title": "Pengajuan Memerlukan Revisi",
+      "message": "Pengajuan LKMM Pra TD Anda memerlukan perbaikan dokumen. Silakan cek Riwayat Pengajuan.",
+      "type": "warning",
+      "isRead": false,
+      "link": "/riwayat",
+      "createdAt": "2026-10-05T12:43:34.437Z"
+    },
+    {
+      "id": "notif_003",
+      "userId": "usr_std_202202",
+      "title": "Selamat! Anda Memenuhi Syarat Pengajuan SKPI",
+      "message": "Poin SKEM Anda (360) telah melampaui target (300) dan seluruh 4 kegiatan wajib terpenuhi. Anda dapat mengajukan SKPI sekarang.",
+      "type": "success",
+      "isRead": false,
+      "link": "/skpi",
+      "createdAt": "2026-10-05T12:43:34.437Z"
+    },
+    {
+      "id": "notif_004",
+      "userId": "usr_admin_001",
+      "title": "Pengajuan Sertifikat Menunggu Verifikasi",
+      "message": "Terdapat 1 pengajuan sertifikat baru dari Ahmad Fauzi menunggu verifikasi Anda.",
+      "type": "info",
+      "isRead": false,
+      "link": "/admin/verifikasi",
+      "createdAt": "2026-10-05T12:43:34.437Z"
+    },
+    {
+      "userId": "usr_admin_001",
+      "title": "Pengajuan Sertifikat Baru",
+      "message": "Ahmad Fauzi (202301045) mengajukan: \"Kewirausahaan Start-up IoT Semen Gresik\"",
+      "type": "info",
+      "link": "/admin/verifikasi",
+      "id": "notif_1791204331022_305",
+      "isRead": false,
+      "createdAt": "2026-10-05T12:45:31.022Z"
+    },
+    {
+      "userId": "usr_std_202301",
+      "title": "Status Sertifikat: Disetujui",
+      "message": "Pengajuan \"Kewirausahaan Start-up IoT Semen Gresik\" telah disetujui (+50 poin).",
+      "type": "success",
+      "link": "/riwayat",
+      "id": "notif_1791204331139_6",
+      "isRead": false,
+      "createdAt": "2026-10-05T12:45:31.139Z"
+    },
+    {
+      "userId": "usr_admin_001",
+      "title": "Pengajuan SKPI Baru",
+      "message": "Siti Nurhaliza (202202018) telah mengajukan permohonan SKPI. Mohon periksa data akademik.",
+      "type": "info",
+      "link": "/admin/skpi",
+      "id": "notif_1791204343667_725",
+      "isRead": false,
+      "createdAt": "2026-10-05T12:45:43.667Z"
+    },
+    {
+      "userId": "usr_std_202202",
+      "title": "Dokumen SKPI Telah Diterbitkan!",
+      "message": "Surat Keterangan Pendamping Ijazah (SKPI) resmi Anda telah terbit dengan No: SKPI/POLTEKSI/2026/0101. Anda dapat mengunduh dokumen sekarang.",
+      "type": "success",
+      "link": "/skpi",
+      "id": "notif_1791204343735_221",
+      "isRead": false,
+      "createdAt": "2026-10-05T12:45:43.735Z"
+    },
+    {
+      "userId": "usr_std_1791204359463_492",
+      "title": "Akun Mahasiswa Berhasil Dibuat",
+      "message": "Selamat datang di Sistem SKEM dan SKPI Politeknik Semen Indonesia, Budi Prasetyo. Mulailah mengunggah sertifikat kegiatan Anda.",
+      "type": "success",
+      "id": "notif_1791204359513_939",
+      "isRead": false,
+      "createdAt": "2026-10-05T12:45:59.513Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "log_1791204331023_720",
+      "actorId": "usr_std_202301",
+      "actorName": "Ahmad Fauzi",
+      "actorRole": "mahasiswa",
+      "action": "CREATE_CERTIFICATE",
+      "targetType": "CertificateItem",
+      "targetId": "cert_1791204331022_324",
+      "details": "Mengajukan kegiatan Kewirausahaan Start-up IoT Semen Gresik",
+      "timestamp": "2026-10-05T12:45:31.023Z"
+    },
+    {
+      "id": "log_1791204331139_881",
+      "actorId": "usr_admin_001",
+      "actorName": "Administrator BAAK & Kemahasiswaan Polteksi",
+      "actorRole": "admin",
+      "action": "VERIFY_CERTIFICATE_DISETUJUI",
+      "targetType": "CertificateItem",
+      "targetId": "cert_1791204331022_324",
+      "details": "Memverifikasi pengajuan Kewirausahaan Start-up IoT Semen Gresik: Disetujui",
+      "timestamp": "2026-10-05T12:45:31.139Z"
+    },
+    {
+      "id": "log_1791204343667_819",
+      "actorId": "usr_std_202202",
+      "actorName": "Siti Nurhaliza",
+      "actorRole": "mahasiswa",
+      "action": "APPLY_SKPI",
+      "targetType": "SKPIRequest",
+      "targetId": "skpi_1791204343667_84",
+      "details": "Mengajukan penerbitan SKPI.",
+      "timestamp": "2026-10-05T12:45:43.667Z"
+    },
+    {
+      "id": "log_1791204343736_245",
+      "actorId": "usr_admin_001",
+      "actorName": "Administrator BAAK & Kemahasiswaan Polteksi",
+      "actorRole": "admin",
+      "action": "PUBLISH_SKPI",
+      "targetType": "SKPIRequest",
+      "targetId": "skpi_1791204343667_84",
+      "details": "Menerbitkan SKPI SKPI/POLTEKSI/2026/0101 untuk Siti Nurhaliza",
+      "timestamp": "2026-10-05T12:45:43.736Z"
+    },
+    {
+      "id": "log_1791204359514_883",
+      "actorId": "usr_std_1791204359463_492",
+      "actorName": "Budi Prasetyo",
+      "actorRole": "mahasiswa",
+      "action": "REGISTER",
+      "targetType": "User",
+      "targetId": "usr_std_1791204359463_492",
+      "details": "Registrasi mahasiswa baru.",
+      "timestamp": "2026-10-05T12:45:59.514Z"
+    }
+  ],
+  "config": {
+    "systemName": "Sistem SKEM dan SKPI Politeknik Semen Indonesia",
+    "rulesVersion": "2026.1",
+    "lastDocumentSequence": 101
+  }
+}
